@@ -3,5 +3,5 @@ An example application to re-produce the [issue](https://github.com/geelen/react
 ## The How To
 
 - First, `yarn install`
-- Second, `npm run production`, it will run `react-scripts build && react-snapshot` then start a server that serve files in the `build` folder as static assets.
+- Second, `npm run production`. It will run `react-scripts build && react-snapshot` then start a server serving files in the `build` folder as static assets.
 - Third, open [http://localhost:5000](http://localhost:5000) with your browser and check logs.
