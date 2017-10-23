@@ -8,16 +8,19 @@
     "react-loadable": "^4.0.5",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.13",
-    "react-snapshot": "^1.2.0",
+    "react-snap": "^0.5.3",
     "serve": "^6.1.0",
     "styled-components": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && react-snapshot",
+    "build": "react-scripts build && react-snap",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "preproduction": "npm run build",
     "production": "serve -s ./build"
+  },
+  "reactSnap": {
+    "fixWebpackChunksIssue": true
   }
 }
