@@ -4523,9 +4523,9 @@ mimic-fn@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-1.1.0.tgz#e667783d92e89dbd342818b5230b9d62a672ad18"
 
-minimalcss@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/minimalcss/-/minimalcss-0.2.1.tgz#ddbbecd89e9acd02240aadec24a8c0b53443705a"
+minimalcss@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/minimalcss/-/minimalcss-0.2.4.tgz#1e0312da17b6676e75ff1f902bf02d52d3da2629"
   dependencies:
     css-tree "1.0.0-alpha24"
     csso "^3.2.0"
@@ -5712,15 +5712,15 @@ react-scripts@1.0.13:
   optionalDependencies:
     fsevents "1.1.2"
 
-react-snap@^0.5.3:
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/react-snap/-/react-snap-0.5.3.tgz#b6f5215142338e23ec32ddfa12ae418681f7f0d7"
+react-snap@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/react-snap/-/react-snap-0.6.2.tgz#e78c71bb9c18f7244e8ba603bfb7cccc943e9770"
   dependencies:
     express "^4.16.1"
     express-history-api-fallback "^2.2.1"
     highland "^2.11.1"
     html-minifier "^3.5.5"
-    minimalcss "^0.2.1"
+    minimalcss "^0.2.4"
     mkdirp "^0.5.1"
     puppeteer "^0.11.0"
     serve-static "^1.13.1"
